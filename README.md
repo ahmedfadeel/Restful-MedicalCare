@@ -22,16 +22,16 @@ The service is patient profile managment system with both doctor and patient  pr
 
 
 ## Get information about system health, configurations, etc.
-`http://localhost:8088/env`
-
-`http://localhost:8088/health`
-
-`http://localhost:8088/info`
-
-`http://localhost:8088/metrics`
+```
+http://localhost:8088/env
+http://localhost:8088/healt`
+http://localhost:8088/info
+http://localhost:8088/metrics
+```
 
 
 ## Create a doctor resource
+
 POST /doctor/add
 
 Accept: application/json
