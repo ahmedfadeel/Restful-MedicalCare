@@ -32,58 +32,70 @@ The service is patient profile managment system with both doctor and patient  pr
 
 
 ## Create a doctor resource
-`POST /doctor/add
+POST /doctor/add
 
 Accept: application/json
 
 Content-Type: application/json`
-
-`{
+```
+{
 "name" : "Beds R Us",
- "personalID":"454871201",
- "Addess":"new York"
- "faculty ":"",
- "Department":""
-}`
+"personalID":"454871201",
+"Addess":"new York"
+"faculty ":"",
+"Department":""
+}
+```
 
 ## Create a doctor resource
-`POST http://localhost:8090/doctor/add
+```
+POST http://localhost:8090/doctor/add
 Accept: application/json
-Content-Type: application/json`
+Content-Type: application/json
+```
 
 
 
-`{
+```
+{
 "name" : "Beds R Us",
  "personalID":"454871201",
  "Addess":"new York"
  "faculty ":"",
- "Department":""
-}`
+"Department":""
+}
+```
 
 ## Retrieve list of doctors 
-`GET http://localhost:8088/doctor/doctorID/id
+```
+GET http://localhost:8088/doctor/doctorID/id
 Response: HTTP 200
-Content:  list`
+Content:  list
+```
  
 
 ## Create a patient  resource
-`POST http://localhost:8090/patient/add
+```
+POST http://localhost:8090/patient/add
 Accept: application/json
-Content-Type: application/json`
+Content-Type: application/json
 
-
-`{
+```
+```
+{
 "name" : "Beds R Us",
  "personalID":"454871201",
  "Addess":"new York"
  "faculty ":"",
  "Department":""
-}`
+}
+```
 
 ## Retrieve list of doctors 
-`GET http://localhost:8088/patient/doctorID/id
+```
+GET http://localhost:8088/patient/doctorID/id
 Response: HTTP 200
-Content:  list `
+Content:  list 
+```
 
 
